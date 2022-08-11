@@ -50,10 +50,10 @@
             Présentation
         </h2>
 
-        <blockquote class="display-6 m-5">
+        <p class="display-6 m-5">
             Le groupe de combat aéroporté (GCAP) est une unité de simulation militaire sur Arma 3, spécialisée dans le
             combat d'infanterie mécanisée. C'est gratuit, démocratique et sérieux.
-        </blockquote>
+        </p>
 
         <div id="accordion">
 
@@ -112,31 +112,35 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <p class="m-5 display-6">
-            Le GCAP est partenaire du GSRI.
-        </p>
-        <p>
-            Le GSRI est une unité de simulation militaire (milsim) sur Arma 3, axée sur l’efficacité d’exécution. Le
-            gameplay est orienté commandos et s'appuie sur une discipline et des compétences individuelles et
-            collectives poussées. Devenir opérateur GSRI nécessite un investissement conséquent, de plusieurs dizaines
-            d'heures par mois, ainsi qu'une attitude professionnelle. Le GCAP a donc été créé pour permettre aux joueurs
-            ne disposant pas d'une telle disponibilité de participer à des opérations dans une ambiance aussi
-            rigoureuse, mais avec un engagement personnel plus limité. Les deux unités fonctionnent ensemble sur le plan
-            institutionnel et certaines missions sont joués en commun.
-        </p>
-        <p class="alert alert-info">
-            <i class="fa-solid fa-people-group fa-2x me-3"></i>
-            Les cadres du GCAP disposent du même statut et formation que les cadres du GSRI.
-        </p>
-        <div class="text-center m-5">
-            <a href="https://www.gsri.team" class="btn btn-primary btn-lg btn-block">
-                <i class="fa fa-globe fa-1x"></i>
-                Découvrir l'univers du GSRI
-            </a>
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                        <strong>
+                            Partenaire du GSRI
+                        </strong>
+                    </a>
+                </div>
+                <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Le GSRI est une unité de simulation militaire (milsim) sur Arma 3, axée sur l’efficacité
+                        d’exécution. Le gameplay est orienté commandos et s'appuie sur une discipline et des compétences
+                        individuelles et collectives poussées. Devenir opérateur GSRI nécessite un investissement
+                        conséquent, de plusieurs dizaines d'heures par mois, ainsi qu'une attitude professionnelle. Le
+                        GCAP a donc été créé pour permettre aux joueurs ne disposant pas d'une telle disponibilité de
+                        participer à des opérations dans une ambiance aussi rigoureuse, mais avec un engagement
+                        personnel plus limité. Les deux unités fonctionnent ensemble sur le plan institutionnel et
+                        certaines missions sont jouées en commun.
+                    </div>
+                    <div class="text-center m-5">
+                        <a href="https://www.gsri.team" class="btn btn-primary btn-lg btn-block">
+                            <i class="fa fa-globe fa-1x"></i>
+                            Découvrir l'univers du GSRI
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 
     <div id="operations" class="container my-5 p-5">
@@ -144,9 +148,9 @@
             Opérations
         </h2>
 
-        <blockquote class="display-6 m-5">
+        <p class="display-6 m-5">
             Les opérations se déroulent tous les mardis soirs, de 21h à 23h.
-        </blockquote>
+        </p>
 
         <div class="alert alert-warning lead">
             <strong>Attention !</strong> Le briefing démarre à l'heure précise, quel que soit l'état des effectifs
@@ -155,8 +159,25 @@
             le briefing démarré.
         </div>
 
+        <p>Les règles suivantes s'appliquent sur toutes nos missions :</p>
+        <ul>
+            <li>Les cadres sont prioritaires sur les fonctions de commandement opérationnel</li>
+            <li>Les joueurs se rendent au briefing avant de s'équiper, et s'équipent avec le matériel attribué</li>
+            <li>L'armement est mis en sûreté en dehors des zones d'opération, d'équipement, et des pas de tir</li>
+            <li>Les joueurs rendent compte régulièrement à leur supérieur direct (sauf incapacité)</li>
+            <li>Les joueurs commandent uniquement leurs subalternes directs (sauf incapacité)</li>
+            <li>Les joueurs appliquent les ordres reçus et attendent le débriefing pour en débattre</li>
+            <li>Les microphones sont coupés en phase d'écoute, le volume de voix est réduit en grand groupe</li>
+        </ul>
+
+        <p>
+            Pour installer les mods du GCAP, cliquez sur le bouton ci-dessous pour télécharger le manifeste. Ensuite
+            glissez-déposez le fichier sur votre lanceur Arma 3. Le lanceur crée automatiquement une configuration GCAP
+            et tient vos mods à jour.
+        </p>
+
         <div class="text-center">
-            <a href="./modpack.html" class="btn btn-primary btn-lg btn-block disabled">
+            <a href="./modpack.html" class="btn btn-primary btn-lg btn-block disabled m-5">
                 <i class="fa fa-download fa-1x"></i>
                 Téléchargement des mods
             </a>
@@ -169,13 +190,39 @@
             Rejoindre
         </h2>
 
-        <blockquote class="display-6 m-5">
+        <p class="display-6 m-5">
             Devenez membre en quelques clics.
-        </blockquote>
+        </p>
+
+        <p>En plus des <a href="#operations">règles opérationnelles</a>, les règles suivantes s'appliquent aux membres
+            du GCAP :</p>
+        <ul>
+            <li>Le GCAP est une unité de simulation militaire centrée sur le combat d'infanterie mécanisée</li>
+            <li>Les membres s'adressent aux autres joueurs avec courtoisie, quelle que soit leur équipe</li>
+            <li>Les membres sont ponctuels et se présentent en avance pour anticiper les problèmes techniques</li>
+            <li>Les cadres sont élus 2 fois par ans par les membres du GCAP</li>
+            <li>Les cadres sont responsables du bon fonctionnement de l'unité et de la discipline</li>
+            <li>Les cadres s'engagent à une participation régulière et bénéficient des formations GSRI</li>
+        </ul>
+
+        <p>La procédure pour devenir membre:</p>
+        <ol>
+            <li>Lisez et acceptez les règles ci-dessus</li>
+            <li>Rejoignez notre serveur Discord</li>
+            <li>Rendez-vous dans le canal <kbd>#candidatures-gcap</kbd></li>
+            <li>Cliquez sur la réaction ☝️ (index pointant vers le haut)</li>
+        </ol>
 
         <p>
-            FIXME
+            A ce point, vous faites officiellement partie de l'équipe.
         </p>
+
+        <div class="text-center">
+            <a href="https://discord.gg/bhMn4jd" class="btn btn-primary btn-lg btn-block">
+                <i class="fa-brands fa-discord fa-1x"></i>
+                Rejoindre le serveur Discord
+            </a>
+        </div>
 
     </div>
 
@@ -184,9 +231,9 @@
             Contact
         </h2>
 
-        <blockquote class="display-6 m-5">
-            Vous pouvez nous contacter sur nos différents réseaux sociaux :
-        </blockquote>
+        <p class="display-6 m-5">
+            Suivez-nous sur nos différents réseaux sociaux :
+        </p>
 
         <div class="text-center">
             <div class="btn-group">
@@ -200,7 +247,7 @@
                     Twitter
                 </a>
 
-                <a href="#" class="btn btn-primary btn-lg">
+                <a href="https://units.arma3.com/unit/gcap" class="btn btn-primary btn-lg">
                     <i class="fa-solid fa-shield fa-1x"></i>
                     Arma 3 unit
                 </a>
