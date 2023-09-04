@@ -3,6 +3,10 @@
     min-height: 60vh;
     overflow: hidden;
     position: relative;
+    background-image: url('./img/humvee-min.jpg');
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
 }
 
 #back {
@@ -29,7 +33,7 @@ body {
         overflow: hidden;
         border-right: .15em solid white;
         white-space: nowrap;
-        font-size: 1.6rem;
+        font-size: 3.5rem;
         font-family: 'Share Tech Mono', monospace;
         width: 0;
         animation:
